@@ -1,0 +1,31 @@
+body{
+    background-color: rgb(235, 235, 235);
+    font-family: cursive;
+}
+.container{
+   width: 540px;
+   max-width: 100%;
+   
+}
+.container h1{
+    color: rgb(97, 97, 97);
+}
+input[type=text],
+input[type=text]:focus{
+    color: #fff;
+    border: none;
+    background-color: rgba(16, 44, 61, 0.2);
+    max-width: 100%;
+    width: 540px;
+    box-shadow: 1px 1px 3px gray;
+}
+.todos li{
+   box-shadow: 1px 1px 3px;
+}
+.delete{
+    cursor: pointer;
+    
+}
+.filtered{
+    display: none !important;
+}
